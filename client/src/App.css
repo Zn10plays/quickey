@@ -1,0 +1,11 @@
+:root {
+  --default-background: #282c34;
+  --default-border-color: rgb(236, 236, 236);
+}
+
+.App {
+  height: 100vh;
+  text-align: center;
+  display: block;
+  padding: 20px;
+}

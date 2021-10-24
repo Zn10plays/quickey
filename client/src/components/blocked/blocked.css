@@ -1,0 +1,27 @@
+.unauth {
+  margin: 15px;  
+}
+
+.warning {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.appBorder {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: var(--dark-background);
+}
+
+.form-outer-body {
+  width: 500px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: var(--default-border-color);
+  padding: 15px;
+}
+
+.submit-form {
+  width: 100%;
+}
