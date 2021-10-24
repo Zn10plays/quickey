@@ -7,6 +7,8 @@ async function main() {
     if (files.includes('.env')) {
       console.log('setup is already compleate \n if you think you messsed something up try removing then delete the env and try again');
     } else {
+      console.log("");
+      console.log("");
       const resDB = await getUserResponce('What is your mongodb url? (default: mongodb://127.0.0.1:27017/)');
       const resPort = await getUserResponce('What do you want the port to be? (default: 5050)');
       const url = resDB || "mongodb://127.0.0.1:27017/";
