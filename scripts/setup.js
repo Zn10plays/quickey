@@ -51,7 +51,7 @@ async function configuredb (url) {
           token: "adminiscool",
           hasAccess: true,
           username: "admin",
-          password: "iamcool"
+          password: "AdminIsCool"
         });
       }
       const listCollection = await db.collection('list')
