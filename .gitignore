@@ -4,4 +4,4 @@ dist
 dist-ssr
 *.local
 .env
-pakage-lock.json
+package-lock.json
